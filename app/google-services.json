@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "947470956839",
+    "project_id": "android-automation-with-jenkin",
+    "storage_bucket": "android-automation-with-jenkin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947470956839:android:0a946a7fd582b00e459102",
+        "android_client_info": {
+          "package_name": "com.sts.demoautomtioandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947470956839-ip3mkthgo0510bvlb6a1jvdfrv5k3ln4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL5NXoTVnDQLqQuZOO0z0OBStoN_HG_QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947470956839-ip3mkthgo0510bvlb6a1jvdfrv5k3ln4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
