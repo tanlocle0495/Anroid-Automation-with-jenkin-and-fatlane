@@ -4,17 +4,40 @@ plugins {
 }
 
 android {
-    compileSdk 31
-
+    compileSdk 30
+    defaultTasks()
     defaultConfig {
         applicationId "com.sts.demoautomtioandroid"
         minSdk 21
-        targetSdk 31
+        targetSdk 30
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    flavorDimensions "env"
+
+    productFlavors {
+        mock {
+            dimension "env"
+            applicationIdSuffix = ".mock"
+        }
+        // dev branch (dev variant)
+        dev {
+            dimension "env"
+            applicationIdSuffix = ".dev"
+        }
+        // master branch (qa variant)
+        qa {
+            dimension "env"
+            applicationIdSuffix = ".qa"
+        }
+        // release branch (prod variant)
+        prod {
+            dimension "env"
+        }
+    }
+
 
     buildTypes {
         release {
